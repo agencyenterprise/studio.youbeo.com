@@ -1,0 +1,123 @@
+::selection {
+	background: #ee4a5d;
+	color: #fff;
+}
+::-moz-selection {
+	background: #ee4a5d;
+	color: #fff;
+}
+
+body {
+	font-size: 10px;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+}
+
+footer {
+	background: #eee;
+	color: #8e939d;
+	font-size: 1.7em;
+	text-align: center;
+	font-weight: 100;
+	padding: 4em 0 4em 0;
+}
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+
+.devin {
+	background: url('devin.jpg') no-repeat;
+}
+
+.daniel {
+	background: url('daniel.jpg') no-repeat;
+}
+
+.pic {
+	border: 5px solid #ddd;
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+	background-size:contain;
+	margin: 0 auto;
+	margin-bottom: 6em;
+	transition: all .3s ease;
+}
+
+.pic:hover {
+	border-color: #ee4a5d;
+}
+
+.dev {
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+.dev:first-child {
+	padding-right: 2em;
+}
+.dev:last-child {
+	padding-left: 2em;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 4em;
+	text-align: center;
+	margin-top: 1.6em;
+	margin-bottom: 1.4em;
+}
+
+h3 {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.dev-link h3 .name {
+	color: #555;
+	border-bottom: 2px solid transparent;
+	font-size: 3em;
+	font-weight: 100;
+	transition: all .3s ease;
+}
+
+.dev-link h3 .name:hover {
+	border-bottom-color: #ee4a5d;
+	color: #ee4a5d;
+}
+
+p {
+	font-size: 1.8em;
+	line-height: 1.8em;
+	color: #888;
+	font-weight: 400;
+}
+
+.contact {
+	border-top: 1px solid #eee;
+	margin: 4em 0 6em 0;
+	padding-top: 4em;
+	margin
+}
+
+a {
+	color: #ee4a5d;
+	text-decoration: none;
+	transition: all .3s ease;
+	border-bottom: 1px solid transparent;
+}
+
+a:hover {
+	border-bottom-color: #ee4a5d;
+}
+
+
+.main-content {
+	border-top: 1px solid #eee;
+	margin-top: 5em;
+	padding-top: 3em;
+}
