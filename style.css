@@ -19,6 +19,7 @@ footer {
 	text-align: center;
 	font-weight: 100;
 	padding: 4em 0 4em 0;
+	margin-top: 3em;
 }
 
 .container {
@@ -68,8 +69,8 @@ h1 {
 	font-weight: 100;
 	font-size: 4em;
 	text-align: center;
-	margin-top: 1.6em;
-	margin-bottom: 1.4em;
+	margin-top: 2.2em;
+	margin-bottom: 1.6em;
 }
 
 h3 {
@@ -97,13 +98,6 @@ p {
 	font-weight: 400;
 }
 
-.contact {
-	border-top: 1px solid #eee;
-	margin: 4em 0 6em 0;
-	padding-top: 4em;
-	margin
-}
-
 a {
 	color: #ee4a5d;
 	text-decoration: none;
@@ -118,7 +112,7 @@ a:hover {
 
 .main-content {
 	border-top: 1px solid #eee;
-	margin-top: 5em;
+	margin-top: 8em;
 	padding-top: 3em;
 }
 
@@ -140,4 +134,27 @@ a:hover {
 	.dev {
 		width: 100%;
 	}
+}
+
+.button {
+	border: 2px solid #ee4a5d;
+	color: #ee4a5d;
+	background: none;
+	border-radius: 8px;
+	padding: .8em;
+	font-size: 2em;
+	width: 200px;
+	transition: all .3s ease;
+	display: inline-block;
+	text-align: center;
+}
+
+.button:hover {
+	background: #ee4a5d;
+	color: #fff;
+}
+
+.contact-button {
+	margin-top: 6em;
+	text-align: center;
 }
