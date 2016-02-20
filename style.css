@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 ::selection {
 	background: #ee4a5d;
 	color: #fff;
@@ -34,6 +37,10 @@ footer {
 	background: url('daniel.jpg') no-repeat;
 }
 
+.ed {
+	background: url('ed.jpg') no-repeat;
+}
+
 .pic {
 	border: 5px solid #ddd;
 	border-radius: 100%;
@@ -51,9 +58,7 @@ footer {
 
 .dev {
 	display: inline-block;
-	width: 49%;
 	vertical-align: top;
-	box-sizing: border-box;
 }
 
 h1 {
@@ -107,15 +112,14 @@ a:hover {
 	padding-top: 3em;
 }
 
-.container {
-	box-sizing: border-box;
-}
-
 @media (max-width: 1043px) {
 
 }
 
 @media (min-width: 701px) {
+	.dev {
+		width: 49%;
+	}
 	.dev:first-child {
 		padding-right: 2em;
 	}
