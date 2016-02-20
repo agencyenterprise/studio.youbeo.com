@@ -23,10 +23,8 @@ footer {
 }
 
 .container {
-	max-width: 1024px;
 	margin: 0 auto;
 }
-
 
 .devin {
 	background: url('devin.jpg') no-repeat;
@@ -56,13 +54,6 @@ footer {
 	width: 49%;
 	vertical-align: top;
 	box-sizing: border-box;
-}
-
-.dev:first-child {
-	padding-right: 2em;
-}
-.dev:last-child {
-	padding-left: 2em;
 }
 
 h1 {
@@ -121,13 +112,25 @@ a:hover {
 }
 
 @media (max-width: 1043px) {
+
+}
+
+@media (min-width: 701px) {
+	.dev:first-child {
+		padding-right: 2em;
+	}
+	.dev:last-child {
+		padding-left: 2em;
+	}
 	.container {
-		margin: 0 1em 0 1em;
+		max-width: 1024px;
 	}
 }
 
-
 @media (max-width: 700px) {
+	.container-mobile {
+		margin: 0 1.3em 0 1.3em;
+	}
 	body {
 		font-size: 8px;
 	}
@@ -138,6 +141,9 @@ a:hover {
 		padding-bottom: 3em;
 		margin-bottom: 3em;
 		border-bottom: 1px solid #eee;
+	}
+	h1 {
+		margin-top: 1em;
 	}
 }
 
