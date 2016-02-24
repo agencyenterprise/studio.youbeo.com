@@ -25,10 +25,6 @@ footer {
 	margin-top: 3em;
 }
 
-.container {
-	margin: 0 auto;
-}
-
 .devin {
 	background: url('devin.jpg') no-repeat;
 }
@@ -112,22 +108,37 @@ a:hover {
 	padding-top: 3em;
 }
 
-@media (max-width: 1043px) {
 
-}
 
 @media (min-width: 701px) {
 	.dev {
-		width: 49.5%;
-	}
-	.dev:first-child {
-		padding-right: 2em;
-	}
-	.dev:last-child {
-		padding-left: 2em;
+		width: 70.5%;
+		display: inline-block;
+		text-align: left;
 	}
 	.container {
-		max-width: 1024px;
+		max-width: 95vw;
+		text-align: center;
+	}
+}
+
+@media (max-width: 1150px) {
+	.dev:not(:last-child) {
+		padding-bottom: 3em;
+		margin-bottom: 3em;
+		border-bottom: 1px solid #eee;
+	}
+}
+
+@media (min-width: 1151px) {
+	.dev {
+		width: 32.9%;
+	}
+	.dev:not(:last-child) {
+		padding-right: 2em;
+	}
+	.container {
+		max-width: 90vw;
 	}
 }
 
@@ -141,15 +152,16 @@ a:hover {
 	.dev {
 		width: 100%;
 	}
-	.dev:first-child {
-		padding-bottom: 3em;
-		margin-bottom: 3em;
-		border-bottom: 1px solid #eee;
-	}
 	h1 {
 		margin-top: 1em;
 	}
 }
+
+
+.container {
+	margin: 0 auto;
+}
+
 
 .button {
 	border: 2px solid #ee4a5d;
