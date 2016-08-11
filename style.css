@@ -82,6 +82,10 @@ h1 {
 	margin-bottom: 1.6em;
 }
 
+h1.team{
+	color: #ccc;
+}
+
 h2 {
 	font-weight: 100;
 	font-size: 2em;
@@ -134,6 +138,11 @@ a:hover {
 	padding-top: 3em;
 }
 
+.divisor{
+	background: #eee;
+	height: 1px;
+	margin:0 0 8em 0;
+}
 
 
 @media (min-width: 701px) {
@@ -154,6 +163,7 @@ a:hover {
 		margin-bottom: 3em;
 		border-bottom: 1px solid #eee;
 	}
+	.divisor{display: none;}
 }
 
 @media (min-width: 1151px) {
