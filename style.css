@@ -37,6 +37,22 @@ footer {
 	background: url('ed.jpg') no-repeat;
 }
 
+.lucas {
+	background: url('lucas.jpg') no-repeat;
+}
+
+.darin {
+	background: url('darin.jpg') no-repeat;
+}
+
+.bijan {
+	background: url('bijan.jpg') no-repeat;
+}
+
+.random {
+	background: url('random.jpg') no-repeat;
+}
+
 .pic {
 	border: 5px solid #ddd;
 	border-radius: 100%;
@@ -55,6 +71,7 @@ footer {
 .dev {
 	display: inline-block;
 	vertical-align: top;
+	margin-bottom: 6em;
 }
 
 h1 {
